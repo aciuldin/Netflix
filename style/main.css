@@ -8,13 +8,16 @@
     padding:0;
     box-sizing: border-box;
 }
-
+/*Elementos base*/
 body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color:white;
+
 }
 
 header .container{
+    margin-left: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,4 +40,14 @@ header nav a{
 header nav a:hover{
     color:#FFF;
 
+}
+
+/* Filme Principal*/
+
+.filme-principal{
+
+    font-size: 16px;
+    background: url(/img/capa-house.jpg);
+    height: 400px;
+    background-size: cover;
 }
