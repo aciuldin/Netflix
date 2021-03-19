@@ -106,3 +106,14 @@ header nav a:hover{
 .carrosel-filmes{
     margin-top: 5px;
 }
+
+.filme-principal .mensagem {
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color:white;
+    
+    padding: 15px 30px;
+    margin-right:15px;
+    font-size:12px;
+
+}
